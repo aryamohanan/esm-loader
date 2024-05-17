@@ -1,7 +1,7 @@
 {
-  "name": "esm-tracer-node",
+  "name": "trace-agent",
   "version": "1.0.0",
-  "description": "This app is a test application for instana esm test",
+  "description": "This app is for tracing the npm modules",
   "scripts": {
     "test": "mocha ./test/*.js",
     "start": "node --import ./register.mjs app.mjs",
