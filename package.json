@@ -1,0 +1,26 @@
+{
+  "name": "esm-tracer-node",
+  "version": "1.0.0",
+  "description": "This app is a test application for instana esm test",
+  "scripts": {
+    "test": "mocha ./test/*.js",
+    "start": "node --import ./register.mjs app.mjs",
+    "start-v18": "node --loader ./esm-loader.mjs app.mjs",
+    "start-cjs": "node app.js"
+  },
+  "author": "arya mohanan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "got": "^14.2.1",
+    "import-in-the-middle": "^1.7.3",
+    "node-fetch": "^2.7.0",
+    "require-in-the-middle": "^7.3.0",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "semver": "^7.6.2",
+    "mocha": "^10.4.0"
+  }
+}
